@@ -1,0 +1,1 @@
+select books.title from books, books_subjects, subjects where subjects.name in ("Technology", "Politics") and books_subjects.book=books.id and books_subjects.subject=subjects.id;
